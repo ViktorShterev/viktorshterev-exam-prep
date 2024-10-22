@@ -22,7 +22,7 @@ jobs:
     - name: Run Unit Tests
       run: npm run test:unit
     - name: Display Softuni Username
-      run: exho 'viktorshterev'
+      run: echo 'viktorshterev'
 
   execute-ui-tests:
     needs: build-and-test
